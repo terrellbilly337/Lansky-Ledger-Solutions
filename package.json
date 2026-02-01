@@ -3,8 +3,14 @@
   "name": "lansky-ledger-solutions",
   "version": "2.5.0",
   "private": true,
+  "type": "module",
   "engines": {
     "node": ">=18.0.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "dependencies": {
     "react": "^19.2.4",
@@ -12,5 +18,10 @@
     "lucide-react": "^0.563.0",
     "recharts": "^3.7.0",
     "@google/genai": "^1.39.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^6.0.5",
+    "typescript": "^5.7.2"
   }
 }
