@@ -56,7 +56,7 @@ const Sidebar: React.FC<SidebarProps> = ({ activeTab, onTabChange, settings, onT
                  dangerouslySetInnerHTML={{ __html: settings.logoSvgOverride || DEFAULT_LOGO_SVG }}
               />
               
-              {/* Logo Text Side-by-Side */}
+              {/* Logo Text Side-by-Side with Vertical Stack */}
               <div className="flex flex-col">
                 <h1 className={`text-2xl font-black tracking-tighter leading-none ${settings.theme === 'dark' ? 'text-white' : 'text-black'}`}>
                   {settings.appName}
