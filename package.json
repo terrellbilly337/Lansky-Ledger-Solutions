@@ -17,7 +17,8 @@
     "react-dom": "^19.2.4",
     "lucide-react": "^0.563.0",
     "recharts": "^3.7.0",
-    "@google/genai": "^1.39.0"
+    "@google/genai": "^1.39.0",
+    "@supabase/supabase-js": "2.38.0"
   },
   "devDependencies": {
     "@vitejs/plugin-react": "^4.3.4",
